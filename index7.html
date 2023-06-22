@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <HEADER>
+        <div id="logo" onclick="slowScroll('top')">
+          <span>Alecto</span>
+        </div>
+        <div id="about">
+            <a href="index.html">Главная</a>
+            <a href="index.html" title="Возможности" onclick="slowScroll('#main')">О нас</a>
+            <a href="index2.html" title="Преимущества" onclick="slowScroll('overiew')">Достопримечательности</a>
+            
+      </HEADER>
+    </div>
+    <section>
+        <div class="hh">
+        <h1>Гора Чертов Палец</h1>
+      </div>
+    </section>
+    <section>
+        <div class="foto">
+            <img src="Гора Чертов Палец/image 38.png" alt="image1">
+            
+        </div>
+        <div class="foto2">
+            <img src="Гора Чертов Палец/image 39.png" alt="image2">
+            
+        </div>
+        <div class="foto3">
+            <img src="Гора Чертов Палец/image 40.png" alt="image3">
+            
+        </div>
+        <div class="foto4">
+            <img src="Гора Чертов Палец/image 41.png" alt="">
+        </div>
+    </section>
+
+    <section>
+        <div class="text">
+            <p>Гора Чертов палец — одна из самых зрелищных и часто посещаемых туристами природных достопримечательностей Алтая. Она находится у реки Катунь на территории Айского сельского поселения Алтайского края. Рядом — село Катунь, на противоположном берегу реки — село Соузга.
+Высота Чертова пальца на Алтае — 250 метров
+Популярность этого природного объекта объясняется не только тем, что с вершины открывается изумительная по красоте панорама Катуни и Алтайских гор, но и легкодоступным расположением. Добраться до Чертова пальца очень просто и это под силу даже неподготовленному путешественнику.</p>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="carta">
+          <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/gora_chyortov_palets/15255176473/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Гора Чёртов палец</a><a href="https://yandex.ru/maps/11235/altai-krai/category/mountain_peak/89667215642/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Горная вершина в Алтайском крае</a><iframe src="https://yandex.ru/map-widget/v1/?display-text=%D0%93%D0%BE%D1%80%D0%B0%20%D0%A7%D1%91%D1%80%D1%82%D0%BE%D0%B2%20%D0%BF%D0%B0%D0%BB%D0%B5%D1%86&from=mapframe&ll=85.831815%2C51.906868&mode=search&oid=15255176473&ol=biz&sctx=ZAAAAAgBEAAaKAoSCcWtghjo8lRAEe7qVWR0qkpAEhIJ93XgnBGljT8RDYtR19r7dD8iBgABAgMEBSgKOABAw40GSAFqAnJ1nQHNzEw9oAEAqAEAvQH1%2F2jKwgERmYqe6jjt4Kfb6wG59I6DuQbqAQDyAQD4AQCCAiDQk9C%2B0YDQsCDQp9GR0YDRgtC%2B0LIg0L%2FQsNC70LXRhooCAJICAJoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=85.831815%2C51.906868&sspn=0.111854%2C0.040904&text=%D0%93%D0%BE%D1%80%D0%B0%20%D0%A7%D1%91%D1%80%D1%82%D0%BE%D0%B2%20%D0%BF%D0%B0%D0%BB%D0%B5%D1%86&z=14.14" width="1580" height="690" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>        </div>
+    </section>
+
+
+
+    <section>
+  <div class="r"></div>
+</section>
+<section>
+  <div class="rr">2023 © «Alecto.com».</div>
+</section>
+<section>
+  <div class="rrr">Телефон: 89211309977
+email: f.vaganov@bk.ru</div>
+</section>
+<section>
+  <div class="fallen">
+    <a href="index.html" class="q">Главная</a>
+    <a href="index.html" href="#part1" class="qq">О нас</a>
+    <a href="index2.html" class="qqq">Достопримечательности</a>
+    
+  </div>
+</section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+$(document).on("scroll", function () {
+  if($(window).scrollTop() === 1)
+    $("header").removeClass("fixed");
+  else
+    $("header").attr("class", "fixed")
+});
+
+</script>
+</body>
+</html>

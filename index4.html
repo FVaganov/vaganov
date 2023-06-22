@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <HEADER>
+        <div id="logo" onclick="slowScroll('top')">
+          <span>Alecto</span>
+        </div>
+        <div id="about">
+            <a href="index.html">Главная</a>
+            <a href="index.html" title="Возможности" onclick="slowScroll('#main')">О нас</a>
+            <a href="index2.html" title="Преимущества" onclick="slowScroll('overiew')">Достопримечательности</a>
+            
+      </HEADER>
+    </div>
+    <section>
+        <div class="hh">
+        <h1>Гора Сарлык</h1>
+      </div>
+    </section>
+    <section>
+        <div class="foto">
+            <img src="Гора Сарлык/image 22.png" alt="image1">
+            
+        </div>
+        <div class="foto2">
+            <img src="Гора Сарлык/image 24.png" alt="image2">
+            
+        </div>
+        <div class="foto3">
+            <img src="Гора Сарлык/image 25.png" alt="image3">
+            
+        </div>
+        <div class="foto4">
+            <img src="Гора Сарлык/image 26.png" alt="">
+        </div>
+    </section>
+
+    <section>
+        <div class="text">
+            <p>Сарлы́к — гора, которая входит в состав Семинского хребта и является его высшей точкой (2507 м).[1] В переводе с алтайского означает «дикий як».
+
+Гора Сарлык — одна из достопримечательностей Шебалинского района Республики Алтай. Расположена на расстоянии около 10 км к востоку от высшей точки Семинского перевала — одной из наиболее высоких точек Чуйского тракта. Гора Сарлык сохраняет на склонах снежные пятна даже в знойный июль.
+
+Горы гряды лежат поперёк пути основных переносов воздушных масс, приходящих с запада и северо-запада. Характер погоды особенно неустойчив при прохождении циклонов, которые определяют режим ветра. Сильные ветры с низовыми метелями наблюдаются зимой. Скорость их достигает более 30-35 м/сек. Они вызывают дефляцию снежного покрова, накапливая его в отрицательных формах рельефа. Многие деревья, чтобы устоять порыву таких ветров, приспособились. 
+На северо-восточном склоне горы Сарлык берёт начало река Туюк и течет на север вдоль Туюкской долины. На западном склоне г. Сарлык берёт начало река Сарлык. Обе реки — Туюк и Сарлык, впадают в реку Сема, которая, в свою очередь, является одним из притоков р. Катуни. Все реки, стекающие со склонов Сарлыка, получают снеговое, дождевое и грунтовое питание. Годовое количество осадков 600—700 мм.</p>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="carta">
+          <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/gora_sarlyk/220954252756/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Гора Сарлык</a><a href="https://yandex.ru/maps/10231/altai-republic/category/mountain_peak/89667215642/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Горная вершина в Республике Алтай</a><iframe src="https://yandex.ru/map-widget/v1/org/gora_sarlyk/220954252756/reviews/?ll=85.732991%2C51.075515&z=12" width="1580" height="690" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        </div>
+    </section>
+
+    <section>
+  <div class="r"></div>
+</section>
+<section>
+  <div class="rr">2023 © «Alecto.com».</div>
+</section>
+<section>
+  <div class="rrr">Телефон: 89211309977
+email: f.vaganov@bk.ru</div>
+</section>
+<section>
+  <div class="fallen">
+    <a href="index.html" class="q">Главная</a>
+    <a href="index.html" href="#part1" class="qq">О нас</a>
+    <a href="index2.html" class="qqq">Достопримечательности</a>
+    
+  </div>
+</section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+$(document).on("scroll", function () {
+  if($(window).scrollTop() === 1)
+    $("header").removeClass("fixed");
+  else
+    $("header").attr("class", "fixed")
+});
+
+</script>
+</body>
+</html>

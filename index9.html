@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <HEADER>
+        <div id="logo" onclick="slowScroll('top')">
+          <span>Alecto</span>
+        </div>
+        <div id="about">
+            <a href="index.html">Главная</a>
+            <a href="index.html" title="Возможности" onclick="slowScroll('#main')">О нас</a>
+            <a href="index2.html" title="Преимущества" onclick="slowScroll('overiew')">Достопримечательности</a>
+            
+      </HEADER>
+    </div>
+    <section>
+        <div class="hh">
+        <h1>Дендропарк «Холмогорье»</h1>
+      </div>
+    </section>
+    <section>
+        <div class="foto">
+            <img src="Дендропарк «Холмогорье»/image 48.png" alt="image1">
+            
+        </div>
+        <div class="foto2">
+            <img src="Дендропарк «Холмогорье»/image 49.png" alt="image2">
+            
+        </div>
+        <div class="foto3">
+            <img src="Дендропарк «Холмогорье»/image 50.png" alt="image3">
+            
+        </div>
+        <div class="foto4">
+            <img src="Дендропарк «Холмогорье»/image 51.png" alt="">
+        </div>
+    </section>
+
+    <section>
+        <div class="text">
+            <p>«Алтайское Холмогорье» — туристический комплекс, расположенный в селе Алтайское. Место с красивой природой и необходимой инфраструктурой прекрасно подходит для отдыха вдали от шумных городов. Благодаря наличию различных развлечений и образовательных программ здесь будет интересно и взрослым, и детям, поэтому многие приезжают сюда целыми семьями. Комплекс находится на территории производства компании «Вистерра», которая занимается переработкой природного сырья, производством густых и сухих экстрактов и оздоровительной продукции на их основе.</p>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="carta">
+          <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс Карты</a><a href="https://yandex.ru/maps/11235/altai-krai/geo/dendropark_kholmogorye/1751691138/?from=mapframe&ll=85.294191%2C51.928469&utm_medium=mapframe&utm_source=maps&z=17.62" style="color:#eee;font-size:12px;position:absolute;top:14px;">Дендропарк Холмогорье — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=85.294191%2C51.928469&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNzUxNjkxMTM4ElTQoNC-0YHRgdC40Y8sINGB0LXQu9C-INCQ0LvRgtCw0LnRgdC60L7QtSwg0LTQtdC90LTRgNC-0L_QsNGA0Log0KXQvtC70LzQvtCz0L7RgNGM0LUiCg3glqpCFbG2T0I%2C&z=17.62" width="1580" height="690" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>        </div>
+    </section>
+
+
+
+<section>
+  <div class="r"></div>
+</section>
+<section>
+  <div class="rr">2023 © «Alecto.com».</div>
+</section>
+<section>
+  <div class="rrr">Телефон: 89211309977
+email: f.vaganov@bk.ru</div>
+</section>
+<section>
+  <div class="fallen">
+    <a href="index.html" class="q">Главная</a>
+    <a href="index.html" href="#part1" class="qq">О нас</a>
+    <a href="index2.html" class="qqq">Достопримечательности</a>
+      
+  </div>
+</section>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+$(document).on("scroll", function () {
+  if($(window).scrollTop() === 1)
+    $("header").removeClass("fixed");
+  else
+    $("header").attr("class", "fixed")
+});
+
+</script>
+</body>
+</html>

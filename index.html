@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <HEADER>
+    <div id="logo" onclick="slowScroll('top')">
+      <span>Alecto</span>
+    </div>
+    <div id="about">
+      <a href="#part1" title="Возможности" onclick="slowScroll('#main')">О нас</a>
+      <a href="index2.html" title="Преимущества" onclick="slowScroll('overiew')">Достопримечательности</a>
+      
+  </HEADER>
+
+  <div id="top">
+    <h1>Откройте для себя красоты Алтайского края вместе с нами!</h1>
+  </div>
+
+  <div id="main">
+    <div class="intro">
+      <h2 id="part1">О нас</h2>
+      <div class="intro_text">
+        <span>Добро пожаловать на сайт о достопримечательностях Алтайского края! Здесь вы найдете полную информацию о самых интересных и красивых местах региона. На нашем сайте вы сможете узнать о самых популярных туристических маршрутах, а также о малоизвестных, но не менее интересных местах. Мы расскажем вам о том, как добраться до них, что посмотреть и где остановиться. Вы также сможете увидеть красивые фотографии и видео, которые помогут вам представить себе красоты Алтайского края. Наша интерактивная карта поможет вам спланировать маршрут по Алтайскому краю, а описания достопримечательностей познакомят с их историей и культурными особенностями. Мы надеемся, что наш сайт поможет вам полюбить этот красивый и уникальный регион и провести незабываемый отпуск в Алтайском крае!</span>
+      </div>
+    </div>
+  </div>
+<div class="line"></div>
+ <section><div  class="hh">
+        <h1>Достопримечательности</h1>
+      </div>
+    </section>
+    
+
+    <section >
+      <div  id="part2" class="line2"></div>
+        <div class="foto">
+            <a href="index4.html"><img src="досьлпирмечательности/image 16 (1).png" alt="image1">
+            <p>Гора Сарлык</p></a>
+        </div>
+        <div class="foto2222">
+            <a href="index6.html"><img src="досьлпирмечательности/i 3 (1).png" alt="image2">
+            <p>Музей «Город»</p></a>
+        </div>
+        <div class="foto3">
+           <a href="index5.html"><img src="досьлпирмечательности/image 15 (1).png" alt="image3">
+            <p>Водопад на реке Чульча</p></a>
+        </div>
+        
+  </div>
+    </section>
+
+<section>
+  <div class="r"></div>
+</section>
+<section>
+  <div class="rr">2023 © «Alecto.com».</div>
+</section>
+<section>
+  <div class="rrr">Телефон: 89211309977
+email: f.vaganov@bk.ru</div>
+</section>
+<section>
+  <div class="fallen">
+    <a href="#part1" class="q">Главная</a>
+    <a href="#part1" class="qq">О нас</a>
+    <a href="index2.html" class="qqq">Достопримечательности</a>
+   
+  </div>
+</section>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+$(document).on("scroll", function () {
+  if($(window).scrollTop() === 0)
+    $("header").removeClass("fixed");
+  else
+    $("header").attr("class", "fixed")
+});
+
+</script>
+
+</body>
+</html>

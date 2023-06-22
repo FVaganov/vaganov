@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+
+}
+
+body {
+  background-color: #fafafa;
+  font-family: Trebuchet MS, Helvetica;
+
+}
+
+header {
+  width: 100%;
+  padding: 10px 0.5% 0px 0.5%;
+  background: transparent;
+  float: left;
+  position: fixed;
+
+}
+
+header #logo {
+  color: black;
+  cursor: pointer;
+
+}
+
+header #logo span{
+  font-size: 1.7em;
+  line-height: 45px;
+  margin-left: 40px;
+  font-family: 'Suez One', serif;
+
+}
+
+@media (min-width: 701px){
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+
+  }
+  #about {
+    float: right;
+    width: 67%;
+    
+  }
+}
+
+@media(max-width: 700px) {
+  #logo {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 1.5em;
+  }
+  #about {
+    float: left;
+    width: 100%;
+
+  }
+}
+
+#about{
+  text-align: center;
+  font-size: 1em;
+  line-height: 40px;
+  margin-bottom: 10px;
+
+}
+
+#about > a {color: black;
+}
+
+#about > a:hover {
+  color: #006400;
+  text-decoration: underline;
+
+}
+
+#about > a:not(:last-child) {
+  margin-right: 7%;
+
+}
+
+.fixed{
+  z-index: 5000;
+  background-color: #fff;
+  border-bottom: 1px solid silver;
+
+}
+
+header.fixed #logo {
+  color: #343434;
+
+}
+
+.hh{
+
+    text-align: center;
+    padding-top: 150px;
+    font-size: 28px;
+
+}
+
+.foto{
+  position: absolute;
+width: 680px;
+height: 456px;
+left: 180px;
+top: 800px;
+border-radius: 30px;
+}
+
+.foto2{
+  position: absolute;
+width: 680px;
+height: 456px;
+left: 180px;
+top: 300px;
+}
+
+.foto3{
+  position: absolute;
+width: 680px;
+height: 456px;
+left: 1050px;
+top: 300px;
+}
+
+.foto4{
+ position: absolute;
+width: 680px;
+height: 456px;
+left: 1050px;
+top: 800px;
+}
+
+.text{
+position: absolute;
+width: 1357px;
+height: 988px;
+left: 281px;
+top: 1350px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 54px;
+text-align: justify;
+
+color: #000000;
+}
+
+.carta{
+position: absolute;
+width: 1580px;
+height: 690px;
+left: 170px;
+top: 2400px;
+
+}
+
+
+
+
+
+.q{
+position: absolute;
+width: 116px;
+height: 77px;
+left: 242px;
+top: 3300px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+}
+
+.qq{
+position: absolute;
+width: 70px;
+height: 69px;
+left: 242px;
+top: 3350px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+}
+
+.qqq{
+position: absolute;
+width: 313px;
+height: 64px;
+left: 242px;
+top: 3400px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+
+}
+
+.qqqq{
+position: absolute;
+width: 81px;
+height: 49px;
+left: 242px;
+top: 3450px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+.r{
+position: absolute;
+width: 1910px;
+height: 392px;
+left: calc(50% - 1920px/2);
+top: 3200px;
+
+background: #111821;
+}
+
+
+
+.rr{
+
+position: absolute;
+width: 276px;
+height: 40px;
+left: 242px;
+top: 3500px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+.rrr{
+position: absolute;
+width: 298px;
+height: 106px;
+right: 242px;
+top: 3300px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+}

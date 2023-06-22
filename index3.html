@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <HEADER>
+        <div id="logo" onclick="slowScroll('top')">
+          <span>Alecto</span>
+        </div>
+        <div id="about">
+            <a href="index.html">Главная</a>
+            <a href="index.html" title="Возможности" onclick="slowScroll('#main')">О нас</a>
+            <a href="index2.html" title="Преимущества" onclick="slowScroll('overiew')">Достопримечательности</a>
+            
+      </HEADER>
+    </div>
+    <section>
+        <div class="hh">
+        <h1>Денисова пещера</h1>
+      </div>
+    </section>
+    <section>
+        <div class="foto">
+            <img src="foto/image 20.png" alt="image1">
+            
+        </div>
+        <div class="foto2">
+            <img src="foto/image 17.png" alt="image2">
+            
+        </div>
+        <div class="foto3">
+            <img src="foto/image 18.png" alt="image3">
+            
+        </div>
+        <div class="foto4">
+            <img src="foto/image 19.png" alt="">
+        </div>
+    </section>
+
+    <section>
+        <div class="text">
+            <p>Денисова пещера — природный и археологический памятник. Расположена в Солонешенском районе Алтайского края.
+Пещера расположена в правом борту долины реки Ануй в 6 км ниже по течению от села Чёрный Ануй, в 1,8 км ниже её левого притока — реки Каракол и в 40 км выше по течению районного центра Солонешное Алтайского края. В 15 км ниже по течению Ануя от Денисовской пещеры находится раннепалеолитическая стоянка Карама. Высота Денисовой пещеры над уровнем моря — 670 м, над современным уровнем реки — 28 м. Вход в пещеру экспонируется на юго-западную и западную части подножия горы Сосновой (Бабки) в составе Ануйского хребта. Пещера горизонтального типа, с широким входом, расположенная близко к воде — на протяжении многих тысячелетий служила надёжным укрытием для людей и животных.
+</p>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="carta">
+          <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/denisova_peshchera/98400246843/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Денисова пещера</a><a href="https://yandex.ru/maps/11235/altai-krai/category/nature/20300558901/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Природа в Алтайском крае</a><iframe src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=84.749777%2C51.409019&mode=search&oid=98400246843&ol=biz&source=mapframe&utm_source=mapframe&z=10.05" width="1580" height="690" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        </div>
+    </section>
+
+    <section>
+  <div class="r"></div>
+</section>
+<section>
+  <div class="rr">2023 © «Alecto.com».</div>
+</section>
+<section>
+  <div class="rrr">Телефон: 89211309977
+email: f.vaganov@bk.ru</div>
+</section>
+<section>
+  <div class="fallen">
+    <a href="index.html" class="q">Главная</a>
+    <a href="index.html" href="#part1" class="qq">О нас</a>
+    <a href="index2.html" class="qqq">Достопримечательности</a>
+    
+  </div>
+</section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+$(document).on("scroll", function () {
+  if($(window).scrollTop() === 1)
+    $("header").removeClass("fixed");
+  else
+    $("header").attr("class", "fixed")
+});
+
+</script>
+</body>
+</html>

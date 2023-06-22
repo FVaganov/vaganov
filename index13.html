@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <HEADER>
+        <div id="logo" onclick="slowScroll('top')">
+          <span>Alecto</span>
+        </div>
+        <div id="about">
+            <a href="index.html">Главная</a>
+            
+            <a href="index.html" title="Возможности" onclick="slowScroll('#main')">О нас</a>
+            <a href="index2.html" title="Преимущества" onclick="slowScroll('overiew')">Достопримечательности</a>
+            
+      </HEADER>
+    </div>
+    <section>
+        <div class="hh">
+        <h1>Белое озеро (Курьинский район)</h1>
+      </div>
+    </section>
+    <section>
+        <div class="foto">
+            <img src="Белое озеро (Курьинский район)/image 68.png" alt="image1">
+            
+        </div>
+        <div class="foto2">
+            <img src="Белое озеро (Курьинский район)/image 69.png" alt="image2">
+            
+        </div>
+        <div class="foto3">
+            <img src="Белое озеро (Курьинский район)/image 70.png" alt="image3">
+            
+        </div>
+        <div class="foto4">
+            <img src="Белое озеро (Курьинский район)/image 71.png" alt="">
+        </div>
+    </section>
+
+    <section>
+        <div class="text">
+            <p>Белое — озеро тектонического происхождения, залегающее в широкой котловине Колыванского хребта в Курьинском районе Алтайского края на высоте 539 м над уровнем моря. С 2010 года озеро имеет статус памятника природы в границах береговой линии.
+
+Находится к северо-востоку от горы Синюха, на территории Колыванского сельсовета.
+
+Длина озера 2,4 км, ширина 1,5 км, средняя глубина 5,5 м, наибольшая глубина 12,5 м. Имеет округлую форму, достигая в поперечнике 2 км, лежит в гранитных берегах с юга и в сланцевых с востока и с севера.
+
+В озеро впадают два ключа, Озёрный на юго-востоке и безымянный на северо-востоке. Из озера вытекает река Белая (бассейн Чарыша). В месте выхода реки сооружена бетонная плотина, поднявшая до определённого уровня сток воды.
+
+В центре озера находится остров, состоящий из гранитных скал, на котором по местной легенде печатал монеты, втайне от императрицы Елизаветы Петровны, крупнейший уральский промышленник Акинфий Демидов.
+</p>
+    </section>
+
+
+    <section>
+        <div class="carta">
+          <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс Карты</a><a href="https://yandex.ru/maps/11235/altai-krai/geo/ozero_beloye/190025000/?from=mapframe&ll=82.648231%2C51.293220&utm_medium=mapframe&utm_source=maps&z=15.07" style="color:#eee;font-size:12px;position:absolute;top:14px;">Озеро Белое — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=82.648231%2C51.293220&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgkxOTAwMjUwMDASjAHQoNC-0YHRgdC40Y8sINCQ0LvRgtCw0LnRgdC60LjQuSDQutGA0LDQuSwg0JrRg9GA0YzQuNC90YHQutC40Lkg0YDQsNC50L7QvSwg0JrQvtC70YvQstCw0L3RgdC60LjQuSDRgdC10LvRjNGB0L7QstC10YIsINC-0LfQtdGA0L4g0JHQtdC70L7QtSIKDQJMpUIV0CxNQg%2C%2C&z=15.07" width="1580" height="690" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>        </div>
+    </section>
+
+
+
+<section>
+  <div class="r"></div>
+</section>
+<section>
+  <div class="rr">2023 © «Alecto.com».</div>
+</section>
+<section>
+  <div class="rrr">Телефон: 89211309977
+email: f.vaganov@bk.ru</div>
+</section>
+<section>
+  <div class="fallen">
+    <a href="index.html" class="q">Главная</a>
+    <a href="index.html" href="#part1" class="qq">О нас</a>
+    <a href="index2.html" class="qqq">Достопримечательности</a>
+      
+  </div>
+</section>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+$(document).on("scroll", function () {
+  if($(window).scrollTop() === 1)
+    $("header").removeClass("fixed");
+  else
+    $("header").attr("class", "fixed")
+});
+
+</script>
+</body>
+</html>

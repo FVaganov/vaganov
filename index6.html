@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <HEADER>
+        <div id="logo" onclick="slowScroll('top')">
+          <span>Alecto</span>
+        </div>
+        <div id="about">
+            <a href="index.html">Главная</a>
+            <a href="index.html" title="Возможности" onclick="slowScroll('#main')">О нас</a>
+            <a href="index2.html" title="Преимущества" onclick="slowScroll('overiew')">Достопримечательности</a>
+            
+      </HEADER>
+    </div>
+    <section>
+        <div class="hh">
+        <h1>Музей «Город»</h1>
+      </div>
+    </section>
+    <section>
+        <div class="foto">
+            <img src="Музей «Город»/image 28.png" alt="image1">
+            
+        </div>
+        <div class="foto2">
+            <img src="Музей «Город»/image 29.png" alt="image2">
+            
+        </div>
+        <div class="foto3">
+            <img src="Музей «Город»/image 30.png" alt="image3">
+            
+        </div>
+        <div class="foto4">
+            <img src="Музей «Город»/image 31.png" alt="">
+        </div>
+    </section>
+
+    <section>
+        <div class="text">
+            <p>На сегодняшний день муниципальное бюджетное учреждение города Барнаула "Музей "Город" является одним из самых молодых музеев в г. Барнауле. В сентябре 2022 года музей отметил свое 15-летие. Несмотря на столь юный возраст, музей имеет интересную историю, богатые коллекции и свои неповторимые, устоявшиеся традиции.
+
+Впервые о создании Музея, где бы изучалась, сохранялась и демонстрировалась история, развитие и современное состояние г. Барнаула, задумались в 2000 году. Именно тогда главой города В.Н. Бавариным было подписано Постановление «О создании муниципального музея города Барнаула». Первоначально, формирование коллекций осуществлялось на базе библиотеки-филиала № 18 Центра информации, образования и досуга «Город». Основу будущих  коллекций музея составили документы органов местного самоуправления, комитета по культуре, администрации города, архивные материалы, фото-документы, предметы материальной культуры.</p>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="carta">
+          <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/gorod/1047888231/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Город</a><a href="https://yandex.ru/maps/197/barnaul/category/museum/184105894/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Музей в Барнауле</a><iframe src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=83.795416%2C53.331677&mode=search&oid=1047888231&ol=biz&z=17.09" width="1580" height="690" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>        </div>
+    </section>
+
+
+
+<section>
+  <div class="r"></div>
+</section>
+<section>
+  <div class="rr">2023 © «Alecto.com».</div>
+</section>
+<section>
+  <div class="rrr">Телефон: 89211309977
+email: f.vaganov@bk.ru</div>
+</section>
+<section>
+  <div class="fallen">
+    <a href="index.html" class="q">Главная</a>
+    <a href="index.html" href="#part1" class="qq">О нас</a>
+    <a href="index2.html" class="qqq">Достопримечательности</a>
+    
+  </div>
+</section>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+$(document).on("scroll", function () {
+  if($(window).scrollTop() === 1)
+    $("header").removeClass("fixed");
+  else
+    $("header").attr("class", "fixed")
+});
+
+</script>
+</body>
+</html>

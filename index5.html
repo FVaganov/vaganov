@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <HEADER>
+        <div id="logo" onclick="slowScroll('top')">
+          <span>Alecto</span>
+        </div>
+        <div id="about">
+            <a href="index.html">Главная</a>
+            <a href="index.html" title="Возможности" onclick="slowScroll('#main')">О нас</a>
+            <a href="index2.html" title="Преимущества" onclick="slowScroll('overiew')">Достопримечательности</a>
+           
+      </HEADER>
+    </div>
+    <section>
+        <div class="hh">
+        <h1>Большой Чульчинский водопад</h1>
+      </div>
+    </section>
+    <section>
+        <div class="foto">
+            <img src="Водопад на реке Чульча/image 33.png" alt="image1">
+            
+        </div>
+        <div class="foto2">
+            <img src="Водопад на реке Чульча/image 34.png" alt="image2">
+            
+        </div>
+        <div class="foto3">
+            <img src="Водопад на реке Чульча/image 35.png" alt="image3">
+            
+        </div>
+        <div class="foto4">
+            <img src="Водопад на реке Чульча/image 36.png" alt="">
+        </div>
+    </section>
+
+    <section>
+        <div class="text">
+            <p>Большой Чульчинский водопад, или Чульчинский, или Учар (южноалт. «летящий» или «неприступный») — каскадный водопад на реке Чульча на востоке Алтая. Административно расположен в Улаганском районе Республики Алтай, на территории Алтайского заповедника. Является самым большим в регионе, имея высоту падения около 160 м.
+
+Несмотря на устоявшееся название «водопад», на самом деле это скорее «водоскат» — падение воды реки с крутого, но не отвесного уступа[1].
+
+Посещение
+Водопад находится в 11—12 км (по другим данным — в 7 км[2]) от места впадения реки Чульча в Чулышман на территории Алтайского заповедника и является одним из немногих объектов заповедника, открытых для посещения туристами. Инспекторами заповедника взимается рекреационный сбор за право нахождения на территории заповедника.</p>
+        </div>
+    </section>
+
+
+
+<section>
+  <div class="r"></div>
+</section>
+<section>
+  <div class="rr">2023 © «Alecto.com».</div>
+</section>
+<section>
+  <div class="rrr">Телефон: 89211309977
+email: f.vaganov@bk.ru</div>
+</section>
+<section>
+  <div class="fallen">
+    <a href="index.html" class="q">Главная</a>
+    <a href="index.html" href="#part1" class="qq">О нас</a>
+    <a href="index2.html" class="qqq">Достопримечательности</a>
+    
+  </div>
+</section>
+    <section>
+        <div class="carta">
+          <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/bolshoy_chulchinskiy_vodopad/151657024603/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Большой Чульчинский водопад</a><a href="https://yandex.ru/maps/10231/altai-republic/category/landmark_attraction/89683368508/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Достопримечательность в Республике Алтай</a><iframe src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=88.090575%2C51.117765&mode=search&oid=151657024603&ol=biz&z=16.12" width="1580" height="690" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>        </div>
+    </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+$(document).on("scroll", function () {
+  if($(window).scrollTop() === 1)
+    $("header").removeClass("fixed");
+  else
+    $("header").attr("class", "fixed")
+});
+
+</script>
+</body>
+</html>

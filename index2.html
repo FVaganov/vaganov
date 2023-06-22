@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <HEADER>
+        <div id="logo" onclick="slowScroll('top')">
+          <span>Alecto</span>
+        </div>
+        <div id="about">
+            <a href="index.html">Главная</a>
+            
+            <a href="index.html" title="Возможности" onclick="slowScroll('#main')">О нас</a>
+            <a href="#part2" title="Преимущества" onclick="slowScroll('overiew')">Достопримечательности</a>
+            
+      </HEADER>
+    </div>
+     <section><div class="hh">
+        <h1>Достопримечательности</h1>
+      </div>
+    </section>
+    
+    <section class="carta">
+    <section>
+        <div class="foto">
+            <a href="index6.html"><img src="досьлпирмечательности/i 3 (1).png" alt="image1">
+            <p>Музей «Город»</p>
+        </a>
+        </div>
+        <div class="foto2222"><a href="index5.html">
+            <img src="досьлпирмечательности/image 15 (1).png" alt="image2">
+            <p>Водопад на реке Чульча</p>
+        </a>
+        </div>
+        <div class="foto3"><a href="index4.html">
+            <img src="досьлпирмечательности/image 15 (1).png" alt="image3">
+            <p>Гора Сарлык</p>
+        </a>
+        </div>
+    </section>
+
+    <section>
+      <div class="foto0">
+        <a href="index7.html"><img src="досьлпирмечательности/i 2 (2).png" alt="image1">
+        <p>Гора Чертов Палец</p>
+    </a>
+    </div>
+    <div class="foto00">
+        <a href="index8.html"><img src="досьлпирмечательности/image 4 (2).png" alt="image2">
+        <p>Горня аптека</p>
+    </a>
+    </div>
+    <a href="index3.html"><div class="foto000">
+        <img src="досьлпирмечательности/image 3 (2).png" alt="image3">
+        <p>Денисова пещера</p>
+    </a>
+    </div>
+</section>
+
+<section class="cccccc">
+  <div class="foto1">
+    <a href="index10.html"><img src="досьлпирмечательности/image 9 (2).png" alt="image1">
+    <p>Тигирекский заповедник</p></a>
+</div>
+<div class="foto11">
+    <a href="index11.html"><img src="досьлпирмечательности/image 10 (2).png" alt="image2">
+    <p>Скала Четыре брата</p></a>
+</div>
+<div class="foto111">
+        <a href="index9.html"><img src="досьлпирмечательности/image 11 (2).png" alt="image3">
+    <p>Дендропарк «Холмогорье»</p></a>
+</div>
+</section>
+
+    
+<section>
+  <div class="foto2">
+    <a href="index13.html"><img src="досьлпирмечательности/image 12 (2).png" alt="image1">
+    <p>Белое озеро (Курьинский район) </p></a>
+</div>
+<div class="foto22">
+    <a href="index14.html"><img src="досьлпирмечательности/image 13 (2).png" alt="image2">
+    <p>Успенский собор в Бийске</p></a>
+</div>
+<div class="foto222">
+    <a href="index12.html"><img src="досьлпирмечательности/image 14 (1).png" alt="image3">
+    <p>Покровский Кафедральный Собор</p></a>
+</div>
+</section>
+</section>
+<section>
+  <div class="r"></div>
+</section>
+<section>
+  <div class="rr">2023 © «Alecto.com».</div>
+</section>
+<section>
+  <div class="rrr">Телефон: 89211309977
+email: f.vaganov@bk.ru</div>
+</section>
+<section>
+  <div class="fallen">
+    <a href="index.html" class="q">Главная</a>
+    <a href="index.html" href="#part1" class="qq">О нас</a>
+    <a href="index2.html" class="qqq">Достопримечательности</a>
+    
+  </div>
+</section>
+    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+$(document).on("scroll", function () {
+  if($(window).scrollTop() === 1)
+    $("header").removeClass("fixed");
+  else
+    $("header").attr("class", "fixed")
+});
+
+</script>
+</body>
+</html>
+

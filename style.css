@@ -105,15 +105,11 @@ header.fixed #logo {
 .fixed #about a:hover {color: #7c7c7c}
 
 #top {
-  width: 100%;
-  height: 1000px;
-  background-image: url('1617347972_43-p-oboi-altai-i-altaiskii-krai-4.png');
-  background-blend-mode: multiply;
+  background-image: url(1617347972_43-p-oboi-altai-i-altaiskii-krai-4.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
 
-  background-size: cover;
-  text-align: center;
-  color: #fff;
-  
 
 }
 
@@ -306,10 +302,11 @@ top: 2250px;
   color: #fff;
   text-shadow: 2px 2px black;
   position: absolute;
-  top: 90%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 35px;
+  text-align: center;
 }
 
 .foto2222 p {
@@ -320,6 +317,7 @@ top: 2250px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 35px;
+  text-align: center;
 }
 
 .foto3 p {

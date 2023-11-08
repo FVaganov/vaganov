@@ -150,13 +150,14 @@ left: 142px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 35px;
+  text-align: center;
 }
 
 .foto2222 p {
   color: #fff;
   text-shadow: 2px 2px black;
   position: absolute;
-  top: 90%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 35px;
@@ -180,6 +181,7 @@ left: 142px;
   height: 500px;
   left: calc(50% - 500px/2);
   top: 800px;
+  text-align: center;
 }
 
 
@@ -189,6 +191,7 @@ width: 500px;
 height: 500px;
 right: 142px;
   top: 800px;
+text-align: center;
 }
 
 
@@ -201,14 +204,14 @@ width: 500px;
 height: 500px;
 left: 142px;
   top: 800px;
-
+text-align: center;
 }
 
 .foto0 p {
   color: #fff;
   text-shadow: 2px 2px black;
   position: absolute;
-  top: 90%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 35px;
@@ -219,7 +222,7 @@ left: 142px;
   color: #fff;
   text-shadow: 2px 2px black;
   position: absolute;
-  top: 90%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 35px;
@@ -230,7 +233,7 @@ left: 142px;
   color: #fff;
   text-shadow: 2px 2px black;
   position: absolute;
-  top: 90%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 35px;
